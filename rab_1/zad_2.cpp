@@ -7,7 +7,7 @@ int main(){
     
     setlocale(LC_ALL, "Rus");
     
-    double a,b,y;
+    float a,b,y;
     std::cout<<"\nВведите число a=";
     std::cin>>a;
     std::cout<<"\nВведите число b=";
