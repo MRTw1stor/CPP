@@ -23,10 +23,17 @@ int main(){
     
     while(a <= b)
     {
+        float values = 0;
         float y = exp(a+1)*cos(a);
+        if(values>y){
+            printf("Возрастает ");
+        }
+        else if(values<y){
+            printf("Убывает ");
+        };
         printf("Y = %.4f ",y);
-        printf("X = %.4f \n",a);
+        printf("X = %.2f \n",a);
         a+=h;
-        
+        values=y;
     };
 }
